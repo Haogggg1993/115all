@@ -1,0 +1,1735 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>2.5.免密登录new</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/2_5_免密登录new/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/2_5_免密登录new/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22666" class="ax_default label">
+        <div id="u22666_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22667" class="text">
+          <p><span>1.初始页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22668" class="ax_default box_22">
+        <div id="u22668_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22669" class="text">
+          <p style="font-size:16px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">交互规则</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">当前手机无SIM卡/网络情况差，弹出提示后跳转到3、</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">短信登录页。</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u22670" class="ax_default line">
+        <img id="u22670_img" class="img " src="images/2_5_免密登录new/u22670.png"/>
+        <!-- Unnamed () -->
+        <div id="u22671" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22672" class="ax_default label">
+        <div id="u22672_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22673" class="text">
+          <p><span>1.接口请求失败，弹出提示，并跳转到短信登录页</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22674" class="ax_default label">
+        <div id="u22674_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22675" class="text">
+          <p><span>115+授权/微信，没有安装时不显示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22676" class="ax_default label">
+        <div id="u22676_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22677" class="text">
+          <p><span>ipad版增加二维码登录：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22678" class="ax_default box_2">
+        <div id="u22678_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22679" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22680" class="ax_default label">
+        <div id="u22680_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22681" class="text">
+          <p><span>二维码登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22682" class="ax_default _图片">
+        <img id="u22682_img" class="img " src="images/2_5_免密登录/u22489.png"/>
+        <!-- Unnamed () -->
+        <div id="u22683" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22684" class="ax_default box_22">
+        <div id="u22684_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22685" class="text">
+          <p style="font-size:16px;"><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;">免密登录</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">1.本机手机号未注册过115帐号，则免密登录后自动注册、登录、绑定本机手机号。</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">2.本机手机号已注册过115帐号，则直接登录该帐号。</span><span style="font-family:'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';font-weight:650;font-size:16px;"></span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">3.客户端判断当前启用移动网络数据的号码是否属于移动，</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">属于则走移动免密登录流程，</span></p><p style="font-size:14px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">不属于则走现有的天翼免密流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u22686" class="ax_default box_2">
+        <img id="u22686_img" class="img " src="images/2_0_登录/u21451.png"/>
+        <!-- Unnamed () -->
+        <div id="u22687" class="text">
+          <p><span>1、帐号密码登录(初始页)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22688" class="ax_default _图片">
+        <img id="u22688_img" class="img " src="images/2_0_登录/u21453.png"/>
+        <!-- Unnamed () -->
+        <div id="u22689" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22690" class="ax_default label">
+        <div id="u22690_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22691" class="text">
+          <p><span>手机号/115帐号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22692" class="ax_default label">
+        <div id="u22692_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22693" class="text">
+          <p><span>密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22694" class="ax_default box_2">
+        <div id="u22694_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22695" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22696" class="ax_default _图片">
+        <img id="u22696_img" class="img " src="images/2_0_登录/u21481.png"/>
+        <!-- Unnamed () -->
+        <div id="u22697" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22698" class="ax_default _图片">
+        <img id="u22698_img" class="img " src="images/2_0_登录/u21483.png"/>
+        <!-- Unnamed () -->
+        <div id="u22699" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22700" class="ax_default label">
+        <div id="u22700_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22701" class="text">
+          <p><span>密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22702" class="ax_default box_2">
+        <div id="u22702_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22703" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u22704" class="ax_default box_2">
+        <img id="u22704_img" class="img " src="images/1_0_注册/u21207.png"/>
+        <!-- Unnamed () -->
+        <div id="u22705" class="text">
+          <p><span>2、帐号密码登录(有记忆)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22706" class="ax_default label">
+        <div id="u22706_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22707" class="text">
+          <p><span>切换帐号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22708" class="ax_default line">
+        <img id="u22708_img" class="img " src="images/2_5_免密登录new/u22708.png"/>
+        <!-- Unnamed () -->
+        <div id="u22709" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u22710" class="ax_default line">
+        <img id="u22710_img" class="img " src="images/2_5_免密登录/u22517.png"/>
+        <!-- Unnamed () -->
+        <div id="u22711" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u22712" class="ax_default line">
+        <img id="u22712_img" class="img " src="images/2_5_免密登录/u22519.png"/>
+        <!-- Unnamed () -->
+        <div id="u22713" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22714" class="ax_default" data-left="75" data-top="897" data-width="320" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22715" class="ax_default" data-left="157" data-top="902" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22716" class="ax_default _图片">
+            <img id="u22716_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22717" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22718" class="ax_default label">
+            <div id="u22718_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22719" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22720" class="ax_default" data-left="244" data-top="900" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22721" class="ax_default _图片">
+            <img id="u22721_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22722" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22723" class="ax_default label">
+            <div id="u22723_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22724" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22725" class="ax_default" data-left="75" data-top="897" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22726" class="ax_default _图片">
+            <img id="u22726_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22727" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22728" class="ax_default label">
+            <div id="u22728_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22729" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22730" class="ax_default _图片">
+          <img id="u22730_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22731" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22732" class="ax_default label">
+          <div id="u22732_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22733" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22734" class="ax_default" data-left="479" data-top="898" data-width="320" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22735" class="ax_default" data-left="561" data-top="903" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22736" class="ax_default _图片">
+            <img id="u22736_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22737" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22738" class="ax_default label">
+            <div id="u22738_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22739" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22740" class="ax_default" data-left="648" data-top="901" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22741" class="ax_default _图片">
+            <img id="u22741_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22742" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22743" class="ax_default label">
+            <div id="u22743_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22744" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22745" class="ax_default" data-left="479" data-top="898" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22746" class="ax_default _图片">
+            <img id="u22746_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22747" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22748" class="ax_default label">
+            <div id="u22748_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22749" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22750" class="ax_default _图片">
+          <img id="u22750_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22751" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22752" class="ax_default label">
+          <div id="u22752_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22753" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22754" class="ax_default" data-left="70" data-top="1035" data-width="281" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22755" class="ax_default" data-left="140" data-top="1040" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22756" class="ax_default _图片">
+            <img id="u22756_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22757" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22758" class="ax_default label">
+            <div id="u22758_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22759" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22760" class="ax_default" data-left="212" data-top="1038" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22761" class="ax_default _图片">
+            <img id="u22761_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22762" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22763" class="ax_default label">
+            <div id="u22763_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22764" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22765" class="ax_default" data-left="70" data-top="1035" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22766" class="ax_default _图片">
+            <img id="u22766_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22767" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22768" class="ax_default label">
+            <div id="u22768_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22769" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22770" class="ax_default _图片">
+          <img id="u22770_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22771" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22772" class="ax_default label">
+          <div id="u22772_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22773" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22774" class="ax_default" data-left="884" data-top="343" data-width="180" data-height="96">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22775" class="ax_default shape2">
+          <div id="u22775_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22776" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22777" class="ax_default _文本1">
+          <div id="u22777_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22778" class="text">
+            <p><span>当前网络不支持免密登录</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22779" class="ax_default _图片">
+        <img id="u22779_img" class="img " src="images/2_5_免密登录/u22615.png"/>
+        <!-- Unnamed () -->
+        <div id="u22780" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22781" class="ax_default label">
+        <div id="u22781_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22782" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22783" class="ax_default _图片">
+        <img id="u22783_img" class="img " src="images/1_0_注册/u21227.png"/>
+        <!-- Unnamed () -->
+        <div id="u22784" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22785" class="ax_default box_2">
+        <div id="u22785_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22786" class="text">
+          <p><span>短信登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22787" class="ax_default box_2">
+        <div id="u22787_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22788" class="text">
+          <p><span>输入手机号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22789" class="ax_default box_2">
+        <div id="u22789_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22790" class="text">
+          <p><span>验证手机</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22791" class="ax_default box_2">
+        <div id="u22791_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22792" class="text">
+          <p><span>登录成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22793" class="ax_default box_2">
+        <div id="u22793_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22794" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22795" class="ax_default line">
+        <img id="u22795_img" class="img " src="images/1_0_注册/u21253.png"/>
+        <!-- Unnamed () -->
+        <div id="u22796" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22797" class="ax_default label">
+        <div id="u22797_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22798" class="text">
+          <p><span>输入手机号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22799" class="ax_default label">
+        <div id="u22799_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22800" class="text">
+          <p><span>中国 +86</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u22801" class="ax_default line">
+        <img id="u22801_img" class="img " src="images/1_0_注册/u21301.png"/>
+        <!-- Unnamed () -->
+        <div id="u22802" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22803" class="ax_default box_31">
+        <div id="u22803_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22804" class="text">
+          <p><span>下一步</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22805" class="ax_default label">
+        <div id="u22805_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22806" class="text">
+          <p><span>海外手机帐号登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22807" class="compound ax_default line" WidgetHeight="1" WidgetWidth="162" CompoundMode="true">
+        <img id="u22807_img" class="singleImg img " src="images/2_5_免密登录new/u22807.png"/>
+        <div id="u22807p000" class="ax_vector_shape" WidgetTopLeftX="-0.49390243902439" WidgetTopLeftY="0" WidgetTopRightX="0.49390243902439" WidgetTopRightY="0" WidgetBottomLeftX="-0.49390243902439" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.49390243902439" WidgetBottomRightY="0.25">
+          <img id="u22807p000_img" class="img " src="images/2_5_免密登录new/u22807p000.png"/>
+        </div>
+        <div id="u22807p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="53.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="53.8333333333333" WidgetBottomRightY="0">
+          <img id="u22807p001_img" class="img " src="images/2_2_115组织授权/u21797p001.png"/>
+        </div>
+        <div id="u22807p002" class="ax_vector_shape" WidgetTopLeftX="-7.95" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-7.95" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u22807p002_img" class="img " src="images/1_0_注册/u21324p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u22808" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22809" class="ax_default label">
+        <div id="u22809_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22810" class="text">
+          <p><span>2.该手机号为电信或联通号码，则弹出提示：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22811" class="ax_default box_22">
+        <div id="u22811_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22812" class="text">
+          <p style="font-size:16px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">交互规则</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">1.有SIM卡且网络比较稳定，</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;color:#FF0000;">判断该手机号类型</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">，</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;color:#FF0000;">如果是移动卡，则调用移动免密登录的接口。</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">其他类型，则调用天翼免密登录接口。</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;color:#FF0000;"></span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">2.当有双卡双待时，本机号码为启用了移动网络数据的那个。</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;"><br></span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22813" class="compound ax_default line" WidgetHeight="1" WidgetWidth="40" CompoundMode="true">
+        <img id="u22813_img" class="singleImg img " src="images/2_5_免密登录new/u22813.png"/>
+        <div id="u22813p000" class="ax_vector_shape" WidgetTopLeftX="-0.476190476190476" WidgetTopLeftY="0" WidgetTopRightX="0.476190476190476" WidgetTopRightY="0" WidgetBottomLeftX="-0.476190476190476" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.476190476190476" WidgetBottomRightY="0.25">
+          <img id="u22813p000_img" class="img " src="images/2_5_免密登录new/u22813p000.png"/>
+        </div>
+        <div id="u22813p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="13.1666666666667" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="13.1666666666667" WidgetBottomRightY="0">
+          <img id="u22813p001_img" class="img " src="images/2_2_115组织授权/u21797p001.png"/>
+        </div>
+        <div id="u22813p002" class="ax_vector_shape" WidgetTopLeftX="-1.85" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-1.85" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u22813p002_img" class="img " src="images/1_0_注册/u21324p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u22814" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22815" class="compound ax_default line" WidgetHeight="1" WidgetWidth="39" CompoundMode="true">
+        <img id="u22815_img" class="singleImg img " src="images/2_5_免密登录/u22438.png"/>
+        <div id="u22815p000" class="ax_vector_shape" WidgetTopLeftX="-0.476190476190476" WidgetTopLeftY="-0.25" WidgetTopRightX="0.452380952380952" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.476190476190476" WidgetBottomLeftY="0" WidgetBottomRightX="0.452380952380952" WidgetBottomRightY="0">
+          <img id="u22815p000_img" class="img " src="images/2_5_免密登录/u22645p000.png"/>
+        </div>
+        <div id="u22815p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="12.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="12.8333333333333" WidgetBottomRightY="0">
+          <img id="u22815p001_img" class="img " src="images/1_0_注册/u21359p001.png"/>
+        </div>
+        <div id="u22815p002" class="ax_vector_shape" WidgetTopLeftX="-1.8" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-1.8" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u22815p002_img" class="img " src="images/2_2_115组织授权/u21691p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u22816" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u22817" class="ax_default box_2">
+        <img id="u22817_img" class="img " src="images/1_0_注册/u21207.png"/>
+        <!-- Unnamed () -->
+        <div id="u22818" class="text">
+          <p><span>3、短信登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22819" class="ax_default box_22">
+        <div id="u22819_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22820" class="text">
+          <p style="font-size:16px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">115组织登录后的交互规则</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">1.</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">已加入115组织</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">：直接进入115组织首页，并弹出提示：登录成功</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">2.</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">未加入组织</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">：跳转到加入组织页，并弹出提示：登录成功。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22821" class="ax_default" data-left="2103" data-top="1680" data-width="373" data-height="123">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22822" class="ax_default">
+          <div id="u22822_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22823" class="text">
+            <p style="font-size:14px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-size:18px;color:#000000;">交互规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#000000;"></span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">动画结束后进入下一页面，分别见115和115组织登录后的交互规则</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22824" class="ax_default" data-left="883" data-top="1668" data-width="285" data-height="86">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22825" class="ax_default">
+          <div id="u22825_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22826" class="text">
+            <p style="font-size:14px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-size:18px;color:#000000;">交互规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#000000;"></span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">登录过程中，下面的点点点是动态的。</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22827" class="ax_default box_2">
+        <div id="u22827_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22828" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22829" class="ax_default label">
+        <div id="u22829_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22830" class="text">
+          <p><span>中国移动为你提供服务</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22831" class="ax_default _图片">
+        <img id="u22831_img" class="img " src="images/2_5_免密登录new/u22831.png"/>
+        <!-- Unnamed () -->
+        <div id="u22832" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22833" class="ax_default _图片">
+        <img id="u22833_img" class="img " src="images/2_5_免密登录new/u22833.png"/>
+        <!-- Unnamed () -->
+        <div id="u22834" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22835" class="ax_default box_22">
+        <div id="u22835_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22836" class="text">
+          <p style="font-size:16px;line-height:normal;"><span style="font-family:'PingFangSC-Regular', 'PingFang SC';font-weight:400;">115登录后的交互规则</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">1.</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">手机号已注册过115</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">：直接进入115首页</span></p><p style="font-size:14px;line-height:28px;"><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">2.</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">未注册过115</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">：登录即注册，弹出提示后跳转到4.</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">完善资料页，</span><span style="font-family:'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';font-weight:200;">并</span><span style="font-family:'PingFangSC-Medium', 'PingFang SC Medium', 'PingFang SC';font-weight:500;">自动绑定本机手机号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22837" class="ax_default _图片">
+        <img id="u22837_img" class="img " src="images/2_0_登录/u21481.png"/>
+        <!-- Unnamed () -->
+        <div id="u22838" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22839" class="ax_default _图片">
+        <img id="u22839_img" class="img " src="images/2_0_登录/u21483.png"/>
+        <!-- Unnamed () -->
+        <div id="u22840" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22841" class="ax_default label">
+        <div id="u22841_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22842" class="text">
+          <p><span>密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22843" class="ax_default box_2">
+        <div id="u22843_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22844" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22845" class="ax_default label">
+        <div id="u22845_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22846" class="text">
+          <p><span>切换帐号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22847" class="ax_default" data-left="1315" data-top="1564" data-width="320" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22848" class="ax_default" data-left="1397" data-top="1569" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22849" class="ax_default _图片">
+            <img id="u22849_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22850" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22851" class="ax_default label">
+            <div id="u22851_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22852" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22853" class="ax_default" data-left="1484" data-top="1567" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22854" class="ax_default _图片">
+            <img id="u22854_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22855" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22856" class="ax_default label">
+            <div id="u22856_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22857" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22858" class="ax_default" data-left="1315" data-top="1564" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22859" class="ax_default _图片">
+            <img id="u22859_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22860" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22861" class="ax_default label">
+            <div id="u22861_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22862" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22863" class="ax_default _图片">
+          <img id="u22863_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22864" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22865" class="ax_default label">
+          <div id="u22865_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22866" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22867" class="ax_default">
+        <div id="u22867_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22868" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22869" class="ax_default box_2">
+        <div id="u22869_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22870" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22871" class="ax_default label">
+        <div id="u22871_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22872" class="text">
+          <p><span>天翼帐号免密登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22873" class="ax_default _图片">
+        <img id="u22873_img" class="img " src="images/2_5_免密登录new/u22873.png"/>
+        <!-- Unnamed () -->
+        <div id="u22874" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22875" class="ax_default line">
+        <img id="u22875_img" class="img " src="images/2_5_免密登录new/u22875.png"/>
+        <!-- Unnamed () -->
+        <div id="u22876" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22877" class="ax_default label">
+        <div id="u22877_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22878" class="text">
+          <p><span>正在验证你的身份</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22879" class="ax_default _图片">
+        <img id="u22879_img" class="img " src="images/2_0_登录/u21481.png"/>
+        <!-- Unnamed () -->
+        <div id="u22880" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22881" class="ax_default _图片">
+        <img id="u22881_img" class="img " src="images/2_0_登录/u21483.png"/>
+        <!-- Unnamed () -->
+        <div id="u22882" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22883" class="ax_default label">
+        <div id="u22883_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22884" class="text">
+          <p><span>密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22885" class="ax_default box_2">
+        <div id="u22885_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22886" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22887" class="ax_default label">
+        <div id="u22887_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22888" class="text">
+          <p><span>切换帐号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22889" class="ax_default" data-left="910" data-top="1565" data-width="320" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22890" class="ax_default" data-left="992" data-top="1570" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22891" class="ax_default _图片">
+            <img id="u22891_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22892" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22893" class="ax_default label">
+            <div id="u22893_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22894" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22895" class="ax_default" data-left="1079" data-top="1568" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22896" class="ax_default _图片">
+            <img id="u22896_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22897" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22898" class="ax_default label">
+            <div id="u22898_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22899" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22900" class="ax_default" data-left="910" data-top="1565" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22901" class="ax_default _图片">
+            <img id="u22901_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22902" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22903" class="ax_default label">
+            <div id="u22903_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22904" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22905" class="ax_default _图片">
+          <img id="u22905_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22906" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22907" class="ax_default label">
+          <div id="u22907_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22908" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22909" class="ax_default">
+        <div id="u22909_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22910" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22911" class="ax_default box_2">
+        <div id="u22911_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22912" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22913" class="ax_default label">
+        <div id="u22913_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22914" class="text">
+          <p><span>天翼帐号为你提供服务</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22915" class="ax_default _图片">
+        <img id="u22915_img" class="img " src="images/2_5_免密登录new/u22915.png"/>
+        <!-- Unnamed () -->
+        <div id="u22916" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22917" class="ax_default _图片">
+        <img id="u22917_img" class="img " src="images/2_5_免密登录new/u22831.png"/>
+        <!-- Unnamed () -->
+        <div id="u22918" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22919" class="ax_default _图片">
+        <img id="u22919_img" class="img " src="images/2_0_登录/u21481.png"/>
+        <!-- Unnamed () -->
+        <div id="u22920" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22921" class="ax_default _图片">
+        <img id="u22921_img" class="img " src="images/2_0_登录/u21483.png"/>
+        <!-- Unnamed () -->
+        <div id="u22922" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22923" class="ax_default label">
+        <div id="u22923_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22924" class="text">
+          <p><span>密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22925" class="ax_default box_2">
+        <div id="u22925_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22926" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22927" class="ax_default label">
+        <div id="u22927_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22928" class="text">
+          <p><span>切换帐号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22929" class="ax_default" data-left="1721" data-top="1565" data-width="320" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22930" class="ax_default" data-left="1803" data-top="1570" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22931" class="ax_default _图片">
+            <img id="u22931_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22932" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22933" class="ax_default label">
+            <div id="u22933_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22934" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22935" class="ax_default" data-left="1890" data-top="1568" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22936" class="ax_default _图片">
+            <img id="u22936_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22937" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22938" class="ax_default label">
+            <div id="u22938_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22939" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22940" class="ax_default" data-left="1721" data-top="1565" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22941" class="ax_default _图片">
+            <img id="u22941_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22942" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22943" class="ax_default label">
+            <div id="u22943_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22944" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22945" class="ax_default _图片">
+          <img id="u22945_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22946" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22947" class="ax_default label">
+          <div id="u22947_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22948" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22949" class="ax_default">
+        <div id="u22949_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22950" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22951" class="ax_default box_2">
+        <div id="u22951_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22952" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22953" class="ax_default label">
+        <div id="u22953_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22954" class="text">
+          <p><span>天翼帐号免密登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22955" class="ax_default line">
+        <img id="u22955_img" class="img " src="images/2_5_免密登录new/u22875.png"/>
+        <!-- Unnamed () -->
+        <div id="u22956" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22957" class="ax_default" data-left="1288" data-top="1673" data-width="555" data-height="268">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22958" class="ax_default">
+          <div id="u22958_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22959" class="text">
+            <p style="font-size:14px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-size:18px;">登录动画的变化</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;"></span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;"><br></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22960" class="ax_default label">
+        <div id="u22960_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22961" class="text">
+          <p><span>137****8309登录中</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22962" class="ax_default _图片">
+        <img id="u22962_img" class="img " src="images/2_0_登录/u21481.png"/>
+        <!-- Unnamed () -->
+        <div id="u22963" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u22964" class="ax_default _图片">
+        <img id="u22964_img" class="img " src="images/2_0_登录/u21483.png"/>
+        <!-- Unnamed () -->
+        <div id="u22965" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22966" class="ax_default label">
+        <div id="u22966_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22967" class="text">
+          <p><span>密码</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22968" class="ax_default box_2">
+        <div id="u22968_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22969" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22970" class="ax_default label">
+        <div id="u22970_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22971" class="text">
+          <p><span>切换帐号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u22972" class="ax_default" data-left="2130" data-top="1565" data-width="320" data-height="77">
+
+        <!-- Unnamed (组合) -->
+        <div id="u22973" class="ax_default" data-left="2212" data-top="1570" data-width="57" data-height="67">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22974" class="ax_default _图片">
+            <img id="u22974_img" class="img " src="images/2_0_登录/u21463.png"/>
+            <!-- Unnamed () -->
+            <div id="u22975" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22976" class="ax_default label">
+            <div id="u22976_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22977" class="text">
+              <p><span>微信</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22978" class="ax_default" data-left="2299" data-top="1568" data-width="63" data-height="69">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22979" class="ax_default _图片">
+            <img id="u22979_img" class="img " src="images/2_0_登录/u21468.png"/>
+            <!-- Unnamed () -->
+            <div id="u22980" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22981" class="ax_default label">
+            <div id="u22981_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22982" class="text">
+              <p><span>短信登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (组合) -->
+        <div id="u22983" class="ax_default" data-left="2130" data-top="1565" data-width="63" data-height="72">
+
+          <!-- Unnamed (图片) -->
+          <div id="u22984" class="ax_default _图片">
+            <img id="u22984_img" class="img " src="images/2_0_登录/u21473.png"/>
+            <!-- Unnamed () -->
+            <div id="u22985" class="text" style="display:none; visibility: hidden">
+              <p><span></span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (矩形) -->
+          <div id="u22986" class="ax_default label">
+            <div id="u22986_div" class=""></div>
+            <!-- Unnamed () -->
+            <div id="u22987" class="text">
+              <p><span>免密登录</span></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u22988" class="ax_default _图片">
+          <img id="u22988_img" class="img " src="images/2_0_登录/u21477.png"/>
+          <!-- Unnamed () -->
+          <div id="u22989" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u22990" class="ax_default label">
+          <div id="u22990_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u22991" class="text">
+            <p><span>115组织</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22992" class="ax_default">
+        <div id="u22992_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22993" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22994" class="ax_default box_2">
+        <div id="u22994_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22995" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u22996" class="ax_default label">
+        <div id="u22996_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u22997" class="text">
+          <p><span>天翼帐号免密登录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u22998" class="ax_default line">
+        <img id="u22998_img" class="img " src="images/2_5_免密登录new/u22875.png"/>
+        <!-- Unnamed () -->
+        <div id="u22999" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u23000" class="ax_default label">
+        <div id="u23000_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u23001" class="text">
+          <p><span>登录成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u23002" class="ax_default _图片">
+        <img id="u23002_img" class="img " src="images/2_5_免密登录new/u23002.png"/>
+        <!-- Unnamed () -->
+        <div id="u23003" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u23004" class="ax_default _图片">
+        <img id="u23004_img" class="img " src="images/2_5_免密登录new/u23004.png"/>
+        <!-- Unnamed () -->
+        <div id="u23005" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u23006" class="ax_default _图片">
+        <img id="u23006_img" class="img " src="images/2_5_免密登录new/u23004.png"/>
+        <!-- Unnamed () -->
+        <div id="u23007" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u23008" class="ax_default _图片">
+        <img id="u23008_img" class="img " src="images/2_5_免密登录new/u23008.png"/>
+        <!-- Unnamed () -->
+        <div id="u23009" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u23010" class="ax_default _图片">
+        <img id="u23010_img" class="img " src="images/2_5_免密登录new/u22873.png"/>
+        <!-- Unnamed () -->
+        <div id="u23011" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u23012" class="ax_default _图片">
+        <img id="u23012_img" class="img " src="images/2_5_免密登录new/u23002.png"/>
+        <!-- Unnamed () -->
+        <div id="u23013" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u23014" class="compound ax_default line" WidgetHeight="1" WidgetWidth="36" CompoundMode="true">
+        <img id="u23014_img" class="singleImg img " src="images/2_5_免密登录new/u23014.png"/>
+        <div id="u23014p000" class="ax_vector_shape" WidgetTopLeftX="-0.45" WidgetTopLeftY="0" WidgetTopRightX="0.45" WidgetTopRightY="0" WidgetBottomLeftX="-0.45" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.45" WidgetBottomRightY="0.25">
+          <img id="u23014p000_img" class="img " src="images/2_5_免密登录new/u23014p000.png"/>
+        </div>
+        <div id="u23014p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="11.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="11.8333333333333" WidgetBottomRightY="0">
+          <img id="u23014p001_img" class="img " src="images/1_0_注册/u21273p001.png"/>
+        </div>
+        <div id="u23014p002" class="ax_vector_shape" WidgetTopLeftX="-1.65" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-1.65" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u23014p002_img" class="img " src="images/1_0_注册/u21273p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23015" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u23016" class="compound ax_default line" WidgetHeight="1" WidgetWidth="44" CompoundMode="true">
+        <img id="u23016_img" class="singleImg img " src="images/2_5_免密登录new/u23016.png"/>
+        <div id="u23016p000" class="ax_vector_shape" WidgetTopLeftX="-0.478260869565217" WidgetTopLeftY="-0.25" WidgetTopRightX="0.478260869565217" WidgetTopRightY="-0.25" WidgetBottomLeftX="-0.478260869565217" WidgetBottomLeftY="0" WidgetBottomRightX="0.478260869565217" WidgetBottomRightY="0">
+          <img id="u23016p000_img" class="img " src="images/2_5_免密登录new/u23016p000.png"/>
+        </div>
+        <div id="u23016p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="14.5" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="14.5" WidgetBottomRightY="0">
+          <img id="u23016p001_img" class="img " src="images/1_0_注册/u21359p001.png"/>
+        </div>
+        <div id="u23016p002" class="ax_vector_shape" WidgetTopLeftX="-2.05" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-2.05" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u23016p002_img" class="img " src="images/1_0_注册/u21275p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23017" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u23018" class="compound ax_default line" WidgetHeight="1" WidgetWidth="38" CompoundMode="true">
+        <img id="u23018_img" class="singleImg img " src="images/2_5_免密登录new/u23018.png"/>
+        <div id="u23018p000" class="ax_vector_shape" WidgetTopLeftX="-0.475" WidgetTopLeftY="0" WidgetTopRightX="0.475" WidgetTopRightY="0" WidgetBottomLeftX="-0.475" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.475" WidgetBottomRightY="0.25">
+          <img id="u23018p000_img" class="img " src="images/2_5_免密登录new/u23018p000.png"/>
+        </div>
+        <div id="u23018p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="12.5" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="12.5" WidgetBottomRightY="0">
+          <img id="u23018p001_img" class="img " src="images/2_2_115组织授权/u21797p001.png"/>
+        </div>
+        <div id="u23018p002" class="ax_vector_shape" WidgetTopLeftX="-1.75" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-1.75" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u23018p002_img" class="img " src="images/1_0_注册/u21324p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23019" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u23020" class="ax_default label">
+        <div id="u23020_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u23021" class="text">
+          <p><span>1、验证身份时只是画圈圈</span></p><p><span>2、登录中开始画实心圆和打钩</span></p><p><span>3、登录成功后，打钩的动画也刚好完成。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u23022" class="compound ax_default line" WidgetHeight="1" WidgetWidth="45" CompoundMode="true">
+        <img id="u23022_img" class="singleImg img " src="images/2_5_免密登录/u22664.png"/>
+        <div id="u23022p000" class="ax_vector_shape" WidgetTopLeftX="-0.458333333333333" WidgetTopLeftY="0" WidgetTopRightX="0.479166666666667" WidgetTopRightY="0" WidgetBottomLeftX="-0.458333333333333" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.479166666666667" WidgetBottomRightY="0.25">
+          <img id="u23022p000_img" class="img " src="images/2_5_免密登录/u22664p000.png"/>
+        </div>
+        <div id="u23022p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="14.8333333333333" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="14.8333333333333" WidgetBottomRightY="0">
+          <img id="u23022p001_img" class="img " src="images/1_0_注册/u21273p001.png"/>
+        </div>
+        <div id="u23022p002" class="ax_vector_shape" WidgetTopLeftX="-2.1" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-2.1" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u23022p002_img" class="img " src="images/1_0_注册/u21324p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23023" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u23024" class="compound ax_default line" WidgetHeight="1" WidgetWidth="46" CompoundMode="true">
+        <img id="u23024_img" class="singleImg img " src="images/2_5_免密登录new/u23024.png"/>
+        <div id="u23024p000" class="ax_vector_shape" WidgetTopLeftX="-0.479166666666667" WidgetTopLeftY="0" WidgetTopRightX="0.479166666666667" WidgetTopRightY="0" WidgetBottomLeftX="-0.479166666666667" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.479166666666667" WidgetBottomRightY="0.25">
+          <img id="u23024p000_img" class="img " src="images/2_5_免密登录new/u23024p000.png"/>
+        </div>
+        <div id="u23024p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="15.1666666666667" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="15.1666666666667" WidgetBottomRightY="0">
+          <img id="u23024p001_img" class="img " src="images/2_2_115组织授权/u21797p001.png"/>
+        </div>
+        <div id="u23024p002" class="ax_vector_shape" WidgetTopLeftX="-2.15" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-2.15" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u23024p002_img" class="img " src="images/1_0_注册/u21324p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23025" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u23026" class="compound ax_default line" WidgetHeight="1" WidgetWidth="49" CompoundMode="true">
+        <img id="u23026_img" class="singleImg img " src="images/2_5_免密登录/u22471.png"/>
+        <div id="u23026p000" class="ax_vector_shape" WidgetTopLeftX="-0.480769230769231" WidgetTopLeftY="0" WidgetTopRightX="0.461538461538462" WidgetTopRightY="0" WidgetBottomLeftX="-0.480769230769231" WidgetBottomLeftY="0.25" WidgetBottomRightX="0.461538461538462" WidgetBottomRightY="0.25">
+          <img id="u23026p000_img" class="img " src="images/2_5_免密登录new/u23026p000.png"/>
+        </div>
+        <div id="u23026p001" class="ax_vector_shape" WidgetTopLeftX="-0.166666666666667" WidgetTopLeftY="-0.5" WidgetTopRightX="16.1666666666667" WidgetTopRightY="-0.5" WidgetBottomLeftX="-0.166666666666667" WidgetBottomLeftY="0" WidgetBottomRightX="16.1666666666667" WidgetBottomRightY="0">
+          <img id="u23026p001_img" class="img " src="images/2_2_115组织授权/u21797p001.png"/>
+        </div>
+        <div id="u23026p002" class="ax_vector_shape" WidgetTopLeftX="-2.3" WidgetTopLeftY="0" WidgetTopRightX="0.15" WidgetTopRightY="0" WidgetBottomLeftX="-2.3" WidgetBottomLeftY="0.05" WidgetBottomRightX="0.15" WidgetBottomRightY="0.05">
+          <img id="u23026p002_img" class="img " src="images/1_0_注册/u21273p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u23027" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u23028" class="ax_default" data-left="1293" data-top="1968" data-width="436" data-height="122">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u23029" class="ax_default">
+          <div id="u23029_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u23030" class="text">
+            <p style="font-size:14px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-size:18px;color:#000000;">中国移动免密登录交互规则</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#000000;"></span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">1、弹层的标题文案改为“中国移动免密登录”</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">2、其他交互与天翼免密登录一致</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

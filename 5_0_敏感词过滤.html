@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>5.0.敏感词过滤</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/5_0_敏感词过滤/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/5_0_敏感词过滤/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (组合) -->
+      <div id="u34320" class="ax_default" data-left="50" data-top="50" data-width="985" data-height="170">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u34321" class="ax_default">
+          <div id="u34321_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u34322" class="text">
+            <p style="font-size:14px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-size:18px;color:#000000;">敏感词过滤</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#000000;"></span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">在现有的过滤逻辑上增加规则：</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">1、针对现在已含有</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">连贯敏感词</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">的115帐号昵称、115组织名称、成员姓名，</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">将敏感词字眼过滤，用*代替显示，如：习近平在开会，屏蔽后为：***在开会</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#000000;">2、</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#FF0000;">不连贯的</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;">整个昵称替换为115数字帐号，如ID是12580，则显示为12580</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u34323" class="ax_default" data-left="50" data-top="238" data-width="985" data-height="162">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u34324" class="ax_default">
+          <div id="u34324_div" class=""></div>
+          <!-- Unnamed () -->
+          <div id="u34325" class="text">
+            <p style="font-size:14px;"><span style="font-family:'Arial-BoldMT', 'Arial Bold', 'Arial';font-weight:700;font-size:18px;color:#000000;">修改时输入敏感词</span><span style="font-family:'ArialMT', 'Arial';font-weight:400;color:#000000;"></span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">1、当用户在修改昵称、组织名称、成员姓名，输入的内容含有敏感词时，弹出提示：此xxx含有敏感词汇，请重新输入！（xxx代表该字段名称）</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">2、这里的敏感词包括：</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">#连贯的，如：习近平在开会；</span></p><p style="font-size:14px;"><span style="font-family:'ArialMT', 'Arial';font-weight:400;">#不连贯，但中间是符号、英文、数字的，如：习-近1aa平</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u34326" class="ax_default _图片">
+        <img id="u34326_img" class="img " src="images/5_0_敏感词过滤/u34326.png"/>
+        <!-- Unnamed () -->
+        <div id="u34327" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
